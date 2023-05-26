@@ -1,0 +1,19 @@
+#V2
+CREATE user SET name="A"
+CREATE user SET name="b", age=2
+INFO FOR db
+CREATE NEW user name="c", age=3
+CREATE user name="c", age=3
+CREATE user SET name="c", age=3
+INFO FOR DB
+SELECT * users WHERE age<1
+SELECT * user WHERE age<1
+SELECT * FROM user WHERE "age">1
+UPDATE user SET name="x" WHERE id="ov7npjkxl1k8v3eyyvqh"
+INFO FOR DB
+SELECT * FROM user WHERE "age">1
+UPDATE user SET name="x" WHERE id="ov7npjkxl1k8v3eyyvqh"
+SELECT * FROM user WHERE "age">1
+UPDATE user SET name="x" WHERE id="user:ov7npjkxl1k8v3eyyvqh"
+CREATE user SET name="A"
+SELECT * FROM user
